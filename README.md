@@ -1,5 +1,5 @@
-# **Coffe House** :coffee:
-[Responsive and animated website for the coffee shop.](rolanmurad.github.io/Coffe-House/)
+# **[Coffe House](rolanmurad.github.io/Coffe-House/)** :coffee:
+Responsive and animated website for the coffee shop.
 
 **What's inside ?** :mag_right:
 
