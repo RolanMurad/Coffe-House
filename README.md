@@ -1,19 +1,19 @@
-# **Ophthalmology-Clinic** :ambulance:
-### A **multi-page** adaptive and responsive website for an **ophthalmology clinic**.
+# **Coffe House** :coffee:
+## Responsive and animated website for the coffee shop.
 
-#### **What's inside ?** :mag_right:
-* **15 page website.** :white_check_mark:
-* **Responsiv** and **adaptive** up to **280px**. :white_check_mark:
-* **Pop-up windows** and other **interactive elements.**:white_check_mark:
-* **Media queries** and **global styles** are in a separate file.:white_check_mark:
+### **What's inside ?** :mag_right:
+
+* **Responsive** and **adaptive** up to **280px**. :white_check_mark:
 * **BEM naming** in HTML and CSS. :white_check_mark:
-* **Valid** and **Semantic** HTML and CSS code (**W3C**). :white_check_mark:
+* **Valid** and **Semantic** HTML and CSS code (W3C). :white_check_mark:
+* **GSAP** animation. :white_check_mark:
 * **Pixel Perfect**. :white_check_mark:
 * **Cross Browser Compatibility** (Firefox, Chrome, Opera, Safari, Yandex Browser, Microsoft Edge...). :white_check_mark:
 * **WEB** images format. :white_check_mark:
 ---- 
-**The technology stack that was used :**
+### **The technology stack that was used :**
 
+![GSAP](https://img.shields.io/badge/GreenSock-88CE02.svg?style=for-the-badge&logo=GreenSock&logoColor=white)
 ![JS](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
 ![HTML](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -22,6 +22,11 @@
 ![GALP](https://img.shields.io/badge/gulp-CF4647.svg?style=for-the-badge&logo=gulp&logoColor=white)
 
 ------
+### **The site includes a number of animations :**
+* **Preloader**.
+* **Scroll animations** with the **ScrollTrigger** plugin from GSAP.
+* **Smooth anchor scroll**.
+* Adaptive **burger menu**.
   
 
 
