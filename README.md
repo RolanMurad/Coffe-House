@@ -1,4 +1,4 @@
-# **Coffe House** :coffee:
+# **Coffee House** :coffee:
 ## Responsive and animated website for the coffee shop.
 
 ### **What's inside ?** :mag_right:
