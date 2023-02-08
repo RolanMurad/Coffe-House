@@ -1,0 +1,141 @@
+.section__menu {
+  padding: 96px 0;
+  background-color: #EEEEEE
+}
+
+.section__title {
+  @extend%title-fonts;
+  line-height: 48px;
+  text-align: center;
+  color: #000000;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 189px;
+    height: 1px;
+    background-color: #444444;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.section__subtitle {
+  max-width: 530px;
+  margin: 0 auto;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+}
+
+// !Menu 
+.tabs {
+  width: 100%;
+  padding-top: 50px;
+
+  &__header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+    @media (max-width: 768px) {
+      flex-wrap: wrap;
+    }
+
+    &-item {
+      margin: 0 25px;
+      cursor: pointer;
+      color: #000000;
+      transition: all .3s ease-in-out;
+
+      &:hover {
+        scale: 1.1;
+      }
+
+      &.active {
+        border-bottom: 1px solid black;
+      }
+    }
+  }
+
+  &__content {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 75px;
+
+    &-item {
+      color: #000000;
+    }
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.food,
+.drinks {
+  display: flex;
+  align-self: center;
+  gap: 50px;
+}
+
+.food__list,
+.drinks__list {
+  flex: 0 1 50%;
+  position: relative;
+
+  &-icon {
+    position: absolute;
+    left: 0%;
+    width: 72px;
+    height: 59px;
+  }
+
+  &-title {
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    margin-bottom: 5px;
+  }
+
+  &-content {
+    max-width: 400px;
+  }
+
+  &-descr {
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    margin-right: 10px;
+  }
+
+  &-price {
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    align-self: center;
+    margin-left: auto;
+  }
+
+  &-item {
+    display: flex;
+    padding-left: 95px;
+    margin-bottom: 45px;
+  }
+}

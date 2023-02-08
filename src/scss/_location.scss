@@ -1,0 +1,57 @@
+// !Location
+.section__location {
+  padding: 96px 0;
+  background: url(../images/location-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.location {
+  &__title {
+    @extend%title-fonts;
+    text-align: center;
+    color: #fff;
+    line-height: 48px;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 189px;
+      height: 1px;
+      background-color: #fff;
+      bottom: 0;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  &__subtitle {
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  &__wrapper {
+    padding-top: 48px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 187px;
+  }
+}
+
+.location__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+
+  &-title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 48px;
+  }
+}

@@ -1,0 +1,145 @@
+//!Benefits
+.section__benefits {
+  padding: 60px 0;
+}
+
+.benefits {
+  display: flex;
+  gap: 120px;
+  justify-content: center;
+  align-items: center;
+
+  &__item {
+    max-width: 250px;
+    position: relative;
+  }
+
+  &__list-items {
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+  }
+
+  &__item:not(:last-child) {
+    text-align: right;
+  }
+
+  &__list-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: black;
+  }
+
+  &__list-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: black;
+  }
+
+  &__list-item--first {
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      background: url(../images/coffe-icon.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 64px;
+      height: 64px;
+      top: 0;
+      right: -35%;
+      opacity: 35%;
+    }
+  }
+
+  &__list-item--second {
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      background: url(../images/pet.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 64px;
+      height: 64px;
+      top: 0;
+      right: -35%;
+      opacity: 35%;
+    }
+  }
+
+  &__list-item--third {
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      background: url(../images/coffetogo.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 64px;
+      height: 64px;
+      top: 0;
+      right: -35%;
+      opacity: 35%;
+    }
+  }
+  
+  &__list-item--fourth {
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      background: url(../images/coffee-bean.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 64px;
+      height: 64px;
+      top: 0;
+      left: -35%;
+      opacity: 35%;
+    }
+  }
+
+  &__list-item--fifth {
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      background: url(../images/vegan.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 64px;
+      height: 64px;
+      top: 0;
+      left: -35%;
+      opacity: 35%;
+    }
+  }
+
+  &__list-item--sixth {
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      background: url(../images/food.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 64px;
+      height: 64px;
+      top: 0;
+      left: -35%;
+      opacity: 35%;
+    }
+  }
+}
