@@ -269,7 +269,7 @@ body {
 }
 
 .header {
-  background: url(../images/header__bg.jpg);
+  background: url(../images/header__bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -574,7 +574,7 @@ body {
 
 .section__booking {
   padding: 96px 0;
-  background: url(../images/coffefresh.jpg);
+  background: url(../images/coffefresh.webp);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -789,7 +789,7 @@ body {
 
 .section__reviews {
   padding: 96px 0;
-  background-image: url(../images/reviews-bg.jpg);
+  background-image: url(../images/reviews-bg.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
